@@ -8,8 +8,10 @@
 </head>
 <body>
 <?php
+if ( isset ($_POST['noms'] , $_POST['selection'])){ 
  echo "Son Nom est:" . $_POST['noms'] ."</br>";
  echo "Sa Couleur est:" . $_POST['selection'] ."</br>";
+}
 
 ?>
     
